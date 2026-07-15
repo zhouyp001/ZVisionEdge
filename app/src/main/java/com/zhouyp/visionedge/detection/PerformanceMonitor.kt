@@ -1,4 +1,4 @@
-package com.example.zt_yolo_demo_app.detection
+package com.zhouyp.visionedge.detection
 
 import android.app.ActivityManager
 import android.content.Context

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "zt-yolo-demo-app"
+rootProject.name = "ZVisionEdge"
 include(":app")

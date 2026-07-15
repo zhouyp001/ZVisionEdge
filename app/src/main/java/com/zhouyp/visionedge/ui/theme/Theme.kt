@@ -1,4 +1,4 @@
-package com.example.zt_yolo_demo_app.ui.theme
+package com.zhouyp.visionedge.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun ZtyolodemoappTheme(
+fun VisionEdgeTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

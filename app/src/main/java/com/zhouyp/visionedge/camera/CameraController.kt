@@ -1,4 +1,4 @@
-package com.example.zt_yolo_demo_app.camera
+package com.zhouyp.visionedge.camera
 
 import android.content.Context
 import android.util.Size

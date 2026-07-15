@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.zt_yolo_demo_app"
+    namespace = "com.zhouyp.visionedge"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.zt_yolo_demo_app"
+        applicationId = "com.zhouyp.visionedge"
         minSdk = 36
         targetSdk = 36
         versionCode = 1

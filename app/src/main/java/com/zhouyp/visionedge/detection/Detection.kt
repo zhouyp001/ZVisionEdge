@@ -1,4 +1,4 @@
-package com.example.zt_yolo_demo_app.detection
+package com.zhouyp.visionedge.detection
 
 data class Detection(
     val x1: Float,

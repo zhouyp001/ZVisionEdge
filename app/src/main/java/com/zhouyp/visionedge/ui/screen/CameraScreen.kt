@@ -1,4 +1,4 @@
-package com.example.zt_yolo_demo_app.ui.screen
+package com.zhouyp.visionedge.ui.screen
 
 import android.Manifest
 import android.content.Context
@@ -37,12 +37,12 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import android.util.Log
-import com.example.zt_yolo_demo_app.camera.CameraController
-import com.example.zt_yolo_demo_app.detection.ConfigLoader
-import com.example.zt_yolo_demo_app.detection.Detection
-import com.example.zt_yolo_demo_app.detection.PerfStats
-import com.example.zt_yolo_demo_app.detection.PerformanceMonitor
-import com.example.zt_yolo_demo_app.detection.YoloDetector
+import com.zhouyp.visionedge.camera.CameraController
+import com.zhouyp.visionedge.detection.ConfigLoader
+import com.zhouyp.visionedge.detection.Detection
+import com.zhouyp.visionedge.detection.PerfStats
+import com.zhouyp.visionedge.detection.PerformanceMonitor
+import com.zhouyp.visionedge.detection.YoloDetector
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -310,7 +310,7 @@ private object PreprocessorHelper {
 
     private const val TARGET_SIZE = 640
 
-    fun yuvToRgbBitmap(frame: com.example.zt_yolo_demo_app.camera.FrameData): Bitmap {
+    fun yuvToRgbBitmap(frame: com.zhouyp.visionedge.camera.FrameData): Bitmap {
         val srcW = frame.width
         val srcH = frame.height
 

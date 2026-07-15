@@ -1,4 +1,4 @@
-package com.example.zt_yolo_demo_app.ui.theme
+package com.zhouyp.visionedge.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
