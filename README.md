@@ -20,7 +20,7 @@ Android 端侧智能识别应用，基于 YOLOv8 ONNX 模型和 ONNX Runtime 实
   <tr>
     <td align="center"><img src="./assets/show-1.jpg" alt="未识别状态" width="200" height="444"><br>未识别状态</td>
     <td align="center"><img src="./assets/show-2.jpg" alt="识别结果" width="200" height="444"><br>识别结果</td>
-    <td align="center"><video src="./assets/show-1.mp4" controls width="200" height="444">您的浏览器不支持视频播放</video><br>操作演示</td>
+    <td align="center"><img src="./assets/show-1.gif" alt="操作演示" width="200" height="444"><br>操作演示</td>
   </tr>
 </table>
 
