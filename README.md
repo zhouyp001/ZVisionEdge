@@ -65,7 +65,7 @@ Android 端侧智能识别应用，基于 YOLOv8 ONNX 模型和 ONNX Runtime 实
 ### 构建
 
 ```bash
-git clone https://github.com/zyipeng/ZVisionEdge.git
+git clone https://github.com/zhouyp001/ZVisionEdge.git
 cd ZVisionEdge
 ./gradlew assembleDebug
 ```
